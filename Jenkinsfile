@@ -34,7 +34,7 @@ pipeline {
              sh 'cat scan.txt'
 			    
                 emailext attachmentsPattern: 'scan.txt',
-                to: 'psailu868@gmail.com',
+                to: 'psailu868@execs.com',
 				from: "Jenkins",
 				body: 'Here is the Scan report for Trivy',
                 subject: "Trivy Scan Report"
