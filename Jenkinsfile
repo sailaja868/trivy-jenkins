@@ -3,7 +3,7 @@ pipeline {
 
 	
 	environment {
-		IMAGE_NAME = "swadhinroutray/trivy-scan:latest"
+		IMAGE_NAME = "sailaja868/trivy-scan:latest"
 		// DOCKER_HOST ='/usr/local/bin'
 		TRIVY_HOST  ='/etc/apt/sources.list.d'
 		}
