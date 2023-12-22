@@ -5,7 +5,7 @@ pipeline {
 	environment {
 		IMAGE_NAME = "swadhinroutray/trivy-scan:latest"
 		// DOCKER_HOST ='/usr/local/bin'
-		TRIVY_HOST  ='/opt/homebrew/opt/trivy/bin'
+		TRIVY_HOST  ='/etc/apt/sources.list.d'
 		}
 	
 	// aquasec/trivy
